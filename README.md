@@ -4,7 +4,8 @@ LeetCode Problems' Solutions.
 
 | # | Title | Solution |
 |---|-------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JS](./javascript/1_Two_Sum.js) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JS](./javascript/1_TwoSum.js) |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JS](./javascript/2_AddTwoNumbers.js) |
 |226| [Invert Binary Tree](https://leetcode.com/problems/two-sum/) | [JS](./javascript/226_InvertBinaryTree.js) |
 
 ## License
