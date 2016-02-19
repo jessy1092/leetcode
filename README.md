@@ -8,6 +8,7 @@ LeetCode Problems' Solutions.
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JS](./javascript/2_AddTwoNumbers.js) | 296 ms |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](./javascript/3_LongestSubstringWithoutRepeatingCharacters.js) | 208 ms |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [JS](./javascript/6_ZigZagConversion.js) | 280 ms |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [JS](./javascript/7_ReverseInteger.js) | 188 ms |
 |226| [Invert Binary Tree](https://leetcode.com/problems/two-sum/) | [JS](./javascript/226_InvertBinaryTree.js) | 136 ms |
 
 ## License
