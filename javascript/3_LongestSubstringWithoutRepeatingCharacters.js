@@ -6,6 +6,7 @@ var lengthOfLongestSubstring = function(s) {
 
   var maxNum = 0;
   var tmpSubString = "";
+  var i;
 
   for (i = 0; i < s.length; i++) {
 

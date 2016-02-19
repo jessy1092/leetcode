@@ -41,7 +41,7 @@ var addTwoNumbers = function(l1, l2) {
       result.next = addTwoNumbers(tmpNext, l1.next);
       return result;
     }
-    result.next = tmpNext
+    result.next = tmpNext;
   } else {
     result.next = addTwoNumbers(l1.next, l2.next);
   }
