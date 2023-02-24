@@ -20,9 +20,6 @@ MinStack.prototype.push = function (val) {
 
   this.minNumIndexArray[this.indexTail] = this.minNumIndex;
 
-  console.log(this.minNumIndexArray);
-  console.log(this.array);
-
   this.indexTail++;
 };
 
@@ -58,55 +55,55 @@ MinStack.prototype.getMin = function () {
  * var param_4 = obj.getMin()
  */
 
-const func = [
-  "push",
-  "push",
-  "push",
-  "top",
-  "pop",
-  "getMin",
-  "pop",
-  "getMin",
-  "pop",
-  "push",
-  "top",
-  "getMin",
-  "push",
-  "top",
-  "getMin",
-  "pop",
-  "getMin",
-];
+// const func = [
+//   "push",
+//   "push",
+//   "push",
+//   "top",
+//   "pop",
+//   "getMin",
+//   "pop",
+//   "getMin",
+//   "pop",
+//   "push",
+//   "top",
+//   "getMin",
+//   "push",
+//   "top",
+//   "getMin",
+//   "pop",
+//   "getMin",
+// ];
 
-const input = [
-  [2147483646],
-  [2147483646],
-  [2147483647],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [2147483647],
-  [],
-  [],
-  [-2147483648],
-  [],
-  [],
-  [],
-  [],
-];
+// const input = [
+//   [2147483646],
+//   [2147483646],
+//   [2147483647],
+//   [],
+//   [],
+//   [],
+//   [],
+//   [],
+//   [],
+//   [2147483647],
+//   [],
+//   [],
+//   [-2147483648],
+//   [],
+//   [],
+//   [],
+//   [],
+// ];
 
-const minStack = new MinStack();
+// const minStack = new MinStack();
 
-const result = [];
+// const result = [];
 
-func.forEach((funcName, index) => {
-  const inputArray = input[index];
-  const func = minStack[funcName];
-  const output = func.apply(minStack, inputArray);
-  result.push(output);
-});
+// func.forEach((funcName, index) => {
+//   const inputArray = input[index];
+//   const func = minStack[funcName];
+//   const output = func.apply(minStack, inputArray);
+//   result.push(output);
+// });
 
-console.log(result);
+// console.log(result);
