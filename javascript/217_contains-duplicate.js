@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var containsDuplicate = function (nums) {
-  var numMap = {};
+  const numMap = {};
 
   for (let i = 0; i < nums.length; i++) {
     if (numMap[nums[i]] === true) {
